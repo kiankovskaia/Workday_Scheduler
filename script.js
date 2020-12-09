@@ -21,9 +21,10 @@ $(".time-block").each(function(){
      $(this).addClass("past");
  }
 })
-
-
-
 }
 changeColor()
 
+saveBtn.on ("click", saveTask)
+function saveTask(){
+    console.log("click")
+}
