@@ -1,4 +1,4 @@
-// $(document).ready(function (){
+
 
 // Moment.js syntax is used to place current date and time at the top of the page 
 
@@ -6,7 +6,8 @@
 
     $(".saveBtn").on("click", function(){
 
-        // We will need to store these input values in localStorage
+    // store these input values in localStorage
+
           console.log(this);
           var text = $(this).siblings(".description").val();
           var time = $(this).parent().attr("id");  
@@ -14,7 +15,8 @@
           localStorage.setItem(time, text);
       });
       
-      // Use a GET to draw values from localStorage for every timeblock
+      // get values from localStorage for each timeblock
+
       $("#9am .description").val(localStorage.getItem("9am"));
       $("#10am .description").val(localStorage.getItem("10am"));
       $("#11am .description").val(localStorage.getItem("11am"));

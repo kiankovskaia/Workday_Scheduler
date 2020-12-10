@@ -1,3 +1,14 @@
+Description 
+
+I created a Work Day Scheduler which allows users to save tasks and schedule their workday.
+
+* When user opens a calendar, he can see the current date and time at the top of the page.
+* User can enter a task for each hour and save it. Each block changes its color based on a current hour.
+* If a task was in past it appears as grey, for current hour - red, for future events - green.
+* When user reloads the page, all saved tasks are stored in local storage.
+
+To complete the assignment I used Moment.js syntax  to place current time on the page. To store all entered tasks I used localStorage.setItem method. Function changeColor makes the blocks to change their color based on the current time by adding class from CSS. I changed CSS a little but just to make my planner to look more fashion =)
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 ## Your Task
