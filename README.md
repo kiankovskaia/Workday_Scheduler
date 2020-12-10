@@ -4,6 +4,8 @@ https://kiankovskaia.github.io/Workday_Scheduler/
 
 ![](scheduler-picture.JPG)
 
+![](Work Day Scheduler demo.gif)
+
 Description 
 
 I created a Work Day Scheduler which allows users to save tasks and schedule their workday.
