@@ -25,6 +25,30 @@ $(".time-block").each(function(){
 changeColor()
 
 saveBtn.on ("click", saveTask)
-function saveTask(){
-    console.log("click")
+function saveTask(event){
+
+    event.preventDefault()
+
+    var storedTasks = {
+
+        9: $("#9am").val()
+
+    }
+    
+    // write with each id
+   
+    
+    
+    
+    
+    
+    console.log(storedTasks)
+
+
+localStorage.setItem ("tasks", storedTasks)
 }
+
+
+// turn object into a string before saving
+
+// at top of page localstorage.getItem
