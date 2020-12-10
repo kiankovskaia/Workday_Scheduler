@@ -2,7 +2,7 @@ https://github.com/kiankovskaia/Workday_Scheduler
 
 https://kiankovskaia.github.io/Workday_Scheduler/
 
-![](Workday_Scheduler.scheduler-picture.jpg)
+![](scheduler-picture.JPG)
 
 Description 
 
